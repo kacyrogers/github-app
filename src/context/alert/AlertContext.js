@@ -1,6 +1,5 @@
 import {createContext, useReducer} from "react";
 import alertReducer from "./AlertReducer";
-import {type} from "@testing-library/user-event/dist/type";
 
 const AlertContext = createContext();
 
